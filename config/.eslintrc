@@ -1,0 +1,57 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "generators": true,
+      "experimentalObjectRestSpread": true,
+      "modules": true,
+      "arrowFunctions": true,
+      "classes": true
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "settings": {
+    "react": {
+      "pragma": "h"
+    }
+  },
+  "rules": {
+    "no-underscore-dangle": [0],
+    "no-console": [0],
+    "no-tabs": [0],
+    "no-bitwise": [0],
+    "default-case": [0],
+    "no-mixed-operators": [0],
+    "no-param-reassign": [0],
+    "space-infix-ops": [0],
+    "no-arrow-condition": [0],
+    "no-cond-assign": [2, "except-parens"],
+    "no-constant-condition": [0],
+    "no-empty-label": [0],
+    "no-new": [0],
+    "react/jsx-filename-extension": [0],
+    "react/forbid-prop-types": [0],
+    "react/jsx-boolean-value": [0],
+    "react/jsx-no-bind": [1, {
+      "ignoreRefs": true,
+      "allowArrowFunctions": true,
+      "allowBind": true
+    }],
+    "import/prefer-default-export": [0],
+    "jsx-a11y/no-static-element-interactions": [0],
+    "space-before-keywords": [0],
+    "space-after-keywords": [0],
+    "space-return-throw-case": [0]
+  }
+}
