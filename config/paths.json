@@ -1,0 +1,15 @@
+{
+  "banner": "{{-modulePath}}/config/banner.js",
+  "build": "build",
+  "eslintrc": "{{-modulePath}}/config/.eslintrc",
+  "indexCSS": "src/index.css",
+  "indexHTML": "public/index.html",
+  "indexJS": "src/index.jsx",
+  "nodeModules": "node_modules",
+  "packageJson": "package.json",
+  "preactCompat": "node_modules/preact-compat/dist/preact-compat",
+  "preactrc": "{{-modulePath}}/config/.preactrc",
+  "public": "public",
+  "src": "src",
+  "stylelintrc": "{{-modulePath}}/config/.stylelintrc"
+}
