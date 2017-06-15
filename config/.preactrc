@@ -1,0 +1,26 @@
+{
+  "devServer": {
+    "port": 3000,
+    "debug": false,
+    "inject": false,
+    "refresher": "window.refresh"
+  },
+  "bundle": {
+    "banner": true,
+    "destCSS": "static/app.css",
+    "destJS": "static/app.js"
+  },
+  "resolve": {
+    "preact-compat": [
+      "Children",
+      "PropTypes",
+      "Component",
+      "createElement"
+    ],
+    "react-motion": [
+      "Motion",
+      "TransitionMotion",
+      "spring"
+    ]
+  }
+}
