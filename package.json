@@ -1,6 +1,6 @@
 {
   "name": "preact-roller",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build Preact projects with Rollup, Bublé and PostCSS, instantly.",
   "author": "René Monroy <rene.dev.js@gmail.com>",
   "license": "MIT",
