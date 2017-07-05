@@ -1,6 +1,6 @@
 {
   "name": "@renemonroy/preact-roller",
-  "version": "0.4.0",
+  "version": "0.1.0",
   "description": "Build Preact projects with Rollup, Bublé and PostCSS, instantly.",
   "author": "René Monroy <rene.dev.js@nike.com>",
   "license": "MIT",
