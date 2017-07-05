@@ -1,4 +1,8 @@
 # preact-roller
+[![npm](https://img.shields.io/npm/v/preact-roller.svg?style=flat-square)](https://www.npmjs.com/package/preact-roller)
+[![npm](https://img.shields.io/npm/l/preact-roller.svg?style=flat-square)](https://www.npmjs.com/package/preact-roller)
+
+### Overview
 A set of scripts and configurations to run Preact projects.
 
 Preact Roller is highly inspired on [react-scripts](https://www.npmjs.com/package/react-scripts).
