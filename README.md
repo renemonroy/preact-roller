@@ -3,6 +3,9 @@ A set of scripts and configurations to run Preact projects.
 
 Highly inspired on [react-scripts](https://www.npmjs.com/package/react-scripts).
 
+### Requirements
+Preact Roller requires at least **Node 6** but an 8 version is highly recommended.
+
 ### Installation
 Install it on your project with `npm install --save-dev preact-roller`.
 
